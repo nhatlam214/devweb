@@ -1,0 +1,634 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+    />
+
+    <link rel="stylesheet" href="/FOOD ORDER/main page/style.css" />
+
+    <title>Order Here</title>
+
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.css"
+    />
+  </head>
+  <body>
+    <!-- header section -->
+
+    <header class="header">
+      <img src="/FOOD ORDER/img/logo.png" alt="" />
+
+      <nav class="navbar">
+        <a href="#home">Home</a>
+        <a href="#features">Features</a>
+        <a href="#shops">Shops</a>
+        <a href="#categories">Categories</a>
+        <a href="#review">Reviews</a>
+        <a href="#blogs">Blogs</a>
+      </nav>
+
+      <div class="icons">
+        <div class="fas fa-bars" id="menu-btn"></div>
+        <div class="fas fa-search" id="search-btn"></div>
+        <div class="fas fa-shopping-cart" id="cart-btn"></div>
+        <div class="fas fa-user" id="login-btn"></div>
+      </div>
+
+      <form action="" class="search-form">
+        <input type="search" id="search-box" placeholder="search here.." />
+        <label for="search-box" class="fas fa-search"></label>
+      </form>
+
+      <div class="shopping-cart">
+        <div class="box">
+          <i class="fas fa-trash"></i>
+          <img src="/FOOD ORDER/img/chicken-cart.png" alt="" />
+          <div class="content">
+            <h3>Fried Chicken</h3>
+            <span class="price">$4.99/-</span>
+            <span class="quantity">qty: 3</span>
+          </div>
+        </div>
+        <div class="box">
+          <i class="fas fa-trash"></i>
+          <img src="/FOOD ORDER/img/starbucks.png" alt="" />
+          <div class="content">
+            <h3>Matcha Latte</h3>
+            <span class="price">$5.99/-</span>
+            <span class="quantity">qty: 1</span>
+          </div>
+        </div>
+        <div class="box">
+          <i class="fas fa-trash"></i>
+          <img src="/FOOD ORDER/img/pizza.jpg" alt="" />
+          <div class="content">
+            <h3>Chicken Pizza</h3>
+            <span class="price">$5.99/-</span>
+            <span class="quantity">qty: 1</span>
+          </div>
+        </div>
+
+        <div class="total">Total: 26.95$/-</div>
+        <a href="#" class="btn">Check Out</a>
+      </div>
+
+      <form action="" class="login-form">
+        <h3>Login Now</h3>
+        <input type="Email" placeholder="Your Email" class="box" />
+        <br />
+        <input type="Password" placeholder="Your Password" class="box" />
+        <p>Forget your password? <a href="#">Click here</a></p>
+        <p>Don't have an account? <a href="/FOOD ORDER/signin/index.html">Create an account</a></p>
+        <input type="submit" value="Login Now" class="btn" />
+      </form>
+    </header>
+
+    <!-- end header section -->
+
+    <!-- home section -->
+
+    <section class="home" id="home">
+      <div class="content">
+        <h3>Your <span>Ultimate Food </span>Ordering Destination</h3>
+        <p>
+          Welcome to Radiancy, the ultimate food ordering website 
+          designed to satisfy your cravings and make mealtime a breeze.
+        </p>
+        <a href="/FOOD ORDER/shop/index.html" class="btn">Shop Now</a>
+      </div>
+    </section>
+
+    <!-- end home section -->
+
+    <!-- features section -->
+    <section class="features" id="features">
+      <h1 class="heading">Our <span>Features</span></h1>
+
+      <div class="box-container">
+        <div class="box">
+          <img src="/FOOD ORDER/img/feature1.png" alt="" />
+          <h3>Fresh and Organic</h3>
+          <p>
+            In a world where processed and artificially enhanced foods dominate 
+            our plates, it is essential to rediscover the vibrant flavors and
+            nutritional benefits.
+          </p>
+          <a href="#" class="btn">Read More</a>
+        </div>
+
+        <div class="box">
+          <img src="/FOOD ORDER/img/featured2-img.png" alt="" />
+          <h3>Fast Delivery</h3>
+          <p>
+            With our fast deliveries, transparent tracking, versatile options, 
+            and exceptional customer support, we're confident that we can meet 
+            and exceed your expectations.
+          </p>
+          <a href="#" class="btn">Read More</a>
+        </div>
+
+        <div class="box">
+          <img src="/FOOD ORDER/img/featured3-img.png" alt="" />
+          <h3>Easy Payment</h3>
+          <p>
+            Embrace 
+            the ease and simplicity via Visa, Mastercard, PayPal, etc. Stay tuned for 
+            more exciting updates in the realm of easy payments.  
+          </p>
+          <a href="#" class="btn">Read More</a>
+        </div>
+      </div>
+    </section>
+
+    <!-- end features section -->
+
+    <!-- shops section -->
+
+    <section class="shops" id="shops">
+      <h1 class="heading">Our <span><a href="/FOOD ORDER/shop/index.html">Shops</a></span></h1>
+
+      <div class="swiper shop-slider">
+        <div class="swiper-wrapper">
+          <div class="swiper-slide box">
+            <img src="/FOOD ORDER/img/kfc.png" alt="" />
+            <h3>KFC</h3>
+            <div class="price">$4.99/- - 40.99/-</div>
+            <div class="stars">
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+            </div>
+            <a href="#" class="btn">Add to Cart</a>
+          </div>
+
+          <div class="swiper-slide box">
+            <img src="/FOOD ORDER/img/mcdonalds.png" alt="" />
+            <h3>McDonald's</h3>
+            <div class="price">$2.99/- - 34.99/-</div>
+            <div class="stars">
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star-half-alt"></i>
+            </div>
+            <a href="#" class="btn">Add to Cart</a>
+          </div>
+
+          <div class="swiper-slide box">
+            <img src="/FOOD ORDER/img/jolibee.png" alt="" />
+            <h3>Jolibee</h3>
+            <div class="price">$4.99/- - 10.99/-</div>
+            <div class="stars">
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+            </div>
+            <a href="#" class="btn">Add to Cart</a>
+          </div>
+
+          <div class="swiper-slide box">
+            <img src="/FOOD ORDER/img/burgerking.png" alt="" />
+            <h3>Burger King</h3>
+            <div class="price">$1.99/- - 20.99/-</div>
+            <div class="stars">
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star-half-alt"></i>
+            </div>
+            <a href="#" class="btn">Add to Cart</a>
+          </div>
+
+          <div class="swiper-slide box">
+            <img src="/FOOD ORDER/img/dominopizza.png" alt="" />
+            <h3>Domino's Pizza</h3>
+            <div class="price">$3.99/- - 14.99/-</div>
+            <div class="stars">
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+            </div>
+            <a href="#" class="btn">Add to Cart</a>
+          </div>
+
+          <div class="swiper-slide box">
+            <img src="/FOOD ORDER/img/pizzacompany.png" alt="" />
+            <h3>The Pizza Company</h3>
+            <div class="price">$4.99/- - 10.99/-</div>
+            <div class="stars">
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star-half-alt"></i>
+            </div>
+            <a href="#" class="btn">Add to Cart</a>
+          </div>
+
+          <div class="swiper-slide box">
+            <img src="/FOOD ORDER/img/dunkindonut.png" alt="" />
+            <h3>Dunkin' Donuts</h3>
+            <div class="price">$5.99/- - 25.99/-</div>
+            <div class="stars">
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star-half-alt"></i>
+            </div>
+            <a href="#" class="btn">Add to Cart</a>
+          </div>
+
+          <div class="swiper-slide box">
+            <img src="/FOOD ORDER/img/baskinrobbins.png" alt="" />
+            <h3>Baskin Robbins</h3>
+            <div class="price">$4.99/- - 10.99/-</div>
+            <div class="stars">
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+            </div>
+            <a href="#" class="btn">Add to Cart</a>
+          </div>
+
+          <div class="swiper-slide box">
+            <img src="/FOOD ORDER/img/wendys.png" alt="" />
+            <h3>Wendy's</h3>
+            <div class="price">$14.99/- - 32.99/-</div>
+            <div class="stars">
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star-half-alt"></i>
+            </div>
+            <a href="#" class="btn">Add to Cart</a>
+          </div>
+        </div>
+      </div>
+
+      <div class="swiper shop-slider">
+        <div class="swiper-wrapper">
+          <div class="swiper-slide box">
+            <img src="/FOOD ORDER/img/starbucks-logo.png" alt="" />
+            <h3>Starbucks</h3>
+            <div class="price">$4.99/- - 19.99/-</div>
+            <div class="stars">
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+            </div>
+            <a href="#" class="btn">Add to Cart</a>
+          </div>
+
+          <div class="swiper-slide box">
+            <img src="/FOOD ORDER/img/phuclong.png" alt="" />
+            <h3>Phuc Long</h3>
+            <div class="price">$2.99/- - 23.99/-</div>
+            <div class="stars">
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star-half-alt"></i>
+            </div>
+            <a href="#" class="btn">Add to Cart</a>
+          </div>
+
+          <div class="swiper-slide box">
+            <img src="/FOOD ORDER/img/gongcha.png" alt="" />
+            <h3>Gong cha</h3>
+            <div class="price">$4.99/- - 10.99/-</div>
+            <div class="stars">
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star-half-alt"></i>
+            </div>
+            <a href="#" class="btn">Add to Cart</a>
+          </div>
+
+          <div class="swiper-slide box">
+            <img src="/FOOD ORDER/img/tocotoco.png" alt="" />
+            <h3>TocoToco</h3>
+            <div class="price">$2.99/- - 25.99/-</div>
+            <div class="stars">
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+            </div>
+            <a href="#" class="btn">Add to Cart</a>
+          </div>
+
+          <div class="swiper-slide box">
+            <img src="/FOOD ORDER/img/highland.png" alt="" />
+            <h3>Highlands</h3>
+            <div class="price">$2.99/- - 20.99/-</div>
+            <div class="stars">
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+            </div>
+            <a href="#" class="btn">Add to Cart</a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- end shops section -->
+
+    <!-- categories section -->
+    <section class="categories" id="categories">
+      <h1 class="heading">Product <span>Categories</span></h1>
+
+      <div class="box-container">
+      <div class="box">
+        <img src="/FOOD ORDER/img/cat-1.png" alt="" />
+        <h3>Fresh Fruits</h3>
+        <p>Upto 35% off</p>
+        <a href="#" class="btn">Shop Now</a>
+      </div>
+
+      <div class="box">
+        <img src="/FOOD ORDER/img/cat-3.png" alt="" />
+        <h3>Fresh Meat</h3>
+        <p>Upto 35% off</p>
+        <a href="#" class="btn">Shop Now</a>
+      </div>
+
+        <div class="box">
+          <img src="/FOOD ORDER/img/cat-2.jpg" alt="" />
+          <h3>Dairy Product</h3>
+          <p>Upto 35% off</p>
+          <a href="#" class="btn">Shop Now</a>
+        </div>
+
+      </div>
+    </section>
+
+    <!-- end categories section -->
+
+    <!-- review section -->
+
+    <section class="review" id="review">
+      <h1 class="heading">Customer's <span>Review</span></h1>
+
+      <div class="swiper review-slider">
+        <div class="swiper-wrapper">
+          <div class="swiper-slide box">
+            <img src="/FOOD ORDER/img/pic-1.png" alt="" />
+            <p>
+              I have been using this food ordering app for a few months now, 
+              and I must say it has made my life so much easier. The user interface 
+              is clean and intuitive, making it a breeze to browse through various 
+              restaurants and cuisines.
+            </p>
+            <h3>Duy Thai</h3>
+            <div class="stars">
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star-half-alt"></i>
+            </div>
+          </div>
+
+          <div class="swiper-slide box">
+            <img src="/FOOD ORDER/img/pic-2.png" alt="" />
+            <p>
+              I love the feature that allows me to customize my orders and add special 
+              instructions. The app also provides real-time tracking of my delivery, 
+              so I always know exactly when my food will arrive. The customer support is excellent too.
+            </p>
+            <h3>Tan Lam</h3>
+            <div class="stars">
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star-half-alt"></i>
+            </div>
+          </div>
+
+          <div class="swiper-slide box">
+            <img src="/FOOD ORDER/img/pic-3.png" alt="" />
+            <p>
+              I recently downloaded this food ordering app, and I am impressed with the wide range of 
+              restaurants available. It has a great selection of cuisines to choose from, 
+              including local favorites and popular chains.
+            </p>
+            <h3>Duy Hao</h3>
+            <div class="stars">
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+            </div>
+          </div>
+
+          <div class="swiper-slide box">
+            <img src="/FOOD ORDER/img/pic-4.png" alt="" />
+            <p>
+              The app is fast and responsive, and I love the way it remembers my past orders, 
+              making it easy to reorder my favorite meals. The delivery service is reliable, 
+              and the food always arrives hot and fresh. I am satisfied with this app.
+            </p>
+            <h3>Nhat Lam</h3>
+            <div class="stars">
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+            </div>
+          </div>
+
+          <div class="swiper-slide box">
+            <img src="/FOOD ORDER/img/pic-5.png" alt="" />
+            <p>
+              I've had a mixed experience with this food ordering app. While it has a decent 
+              selection of restaurants, the app itself feels a bit clunky and slow. It takes 
+              a while to navigate through the menus and place an order.
+            </p>
+            <h3>Van Nghia</h3>
+            <div class="stars">
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+            </div>
+          </div>
+
+          
+          <div class="swiper-slide box">
+            <img src="/FOOD ORDER/img/pic-6.png" alt="" />
+            <p>
+              The ordering process is seamless, and I appreciate the various payment options 
+              available. The delivery service is always prompt, and the food arrives in perfect 
+              condition. The app is incredibly user-friendly.
+            </p>
+            <h3>Ngan Ha</h3>
+            <div class="stars">
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+            </div>
+          </div>
+          
+        </div>
+      </div>
+    </section>
+
+    <!-- end review section -->
+
+    <!-- blogs section -->
+
+    <section class="blogs" id="blogs">
+      <h1 class="heading">Our <span>Blogs</span></h1>
+
+      <div class="box-container">
+        <div class="box">
+          <img src="/FOOD ORDER/img/blog1.png" alt="" />
+          <div class="content">
+            <div class="icons">
+              <a href="#"> <i class="fas fa-user"></i> by Nhat Lam</a>
+              <a href="#"> <i class="fas fa-calendar"></i> 30th May, 2023 </a>
+            </div>
+            <h3>McDonald's has become an integral part of the global fast food industry</h3>
+            <p>
+              McDonald's is one of the world's largest and most well-known fast food restaurant chains. 
+              Founded in 1940 by Richard and Maurice McDonald, the company has grown into a global phenomenon,
+              with over 37,000 locations in more than 100 countries. McDonald's has become an integral part of 
+              the global fast food industry.
+            </p>
+            <a href="#" class="btn">Read More</a>
+          </div>
+        </div>
+
+        <div class="box">
+          <img src="/FOOD ORDER/img/blog2.png" alt="" />
+          <div class="content">
+            <div class="icons">
+              <a href="#"> <i class="fas fa-user"></i> by Duy Hao</a>
+              <a href="#"> <i class="fas fa-calendar"></i> 28th May, 2023</a>
+            </div>
+            <h3>Starbucks has built a strong brand identity and loyal customer base</h3>
+            <p>
+              Starbucks is a renowned international coffeehouse chain that was founded in 1971 in Seattle, 
+              Washington, United States. It has since become one of the most recognizable and influential 
+              brands in the global coffee industry. With thousands of stores worldwide, Starbucks has established 
+              itself as a prominent destination for coffee lovers.
+            </p>
+            <a href="#" class="btn">Read More</a>
+          </div>
+        </div>
+
+        <div class="box">
+          <img src="/FOOD ORDER/img/blog3.png" alt="" />
+          <div class="content">
+            <div class="icons">
+              <a href="#"> <i class="fas fa-user"></i> by Van Nghia</a>
+              <a href="#"> <i class="fas fa-calendar"></i> 2nd June, 2023</a>
+            </div>
+            <h3>Burger King has established itself as a prominent player in the fast food industry</h3>
+            <p>
+              Burger King is a well-known global fast food chain specializing in hamburgers and other fast food items. 
+              Founded in 1954 in Miami, Florida, Burger King has grown to become one of the largest hamburger chains 
+              in the world, with thousands of restaurants spread across more than 100 countries. Famous for its flame-grilled burgers.
+            </p>
+            <a href="#" class="btn">Read More</a>
+          </div>
+        </div>
+
+
+      </div>
+    </section>
+
+    <!-- end blogs section -->
+
+    <!-- footer section -->
+
+    <section class="footer">
+      <div class="box-container">
+        <div class="box">
+          <h3>About Us</h3>
+          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras
+            bibendum vehicula nibh ac elementum.</p>
+          <div class="share">
+            <a href="#" class="fab fa-facebook-f"></a>
+            <a href="#" class="fab fa-twitter"></a>
+            <a href="#" class="fab fa-instagram"></a>
+            <a href="#" class="fab fa-linkedin"></a>
+          </div>
+        </div>
+
+        <div class="box">
+          <h3>Contact Us</h3>
+          <a href="#" class="links"> <i class="fas fa-phone"></i>+84 988 406 018 </a>
+          <a href="#" class="links"> <i class="fas fa-envelope"></i> lamtn.22git@vku.udn.vn  </a>
+          <a href="#" class="links"> <i class="fas fa-map-marker-alt"></i> Ngu Hanh Son, Da Nang </a>
+        </div>
+
+        <div class="box">
+          <h3>Our Service</h3>
+          <a href="#" class="links"> <i class="fas fa-arrow-right"></i> Home </a>
+          <a href="#" class="links"> <i class="fas fa-arrow-right"></i> Features </a>
+          <a href="#" class="links"> <i class="fas fa-arrow-right"></i> Shops </a>
+          <a href="#" class="links"> <i class="fas fa-arrow-right"></i> Categories </a>
+          <a href="#" class="links"> <i class="fas fa-arrow-right"></i> Reviews </a>
+          <a href="#" class="links"> <i class="fas fa-arrow-right"></i> Blogs </a>
+        </div>
+
+        
+        <div class="box">
+          <h3>Newsletter</h3>
+          <p>Subscribe for Latest Update</p>
+          <input type="email" placeholder="Your Email" class="email">
+          <input type="submit" value="Subscribe" class="btn">
+
+          <div class="payments">
+            <a href="#" class="fab fa-cc-visa"></a>
+            <a href="#" class=" fab fa-cc-mastercard"></a>
+            <a href="#" class="fab fa-cc-paypal"></a>
+            <a href="#" class="fab fa-cc-amazon-pay"></a>
+          </div>
+
+        </div>
+
+      </div>
+
+      <div class="credit"> created by <span>Radiancy </span> | All rights reserved</div>
+    </section>
+
+    <!-- end footer section -->
+
+    <script src="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.js"></script>
+
+    <script src="script.js"></script>
+  </body>
+</html>
